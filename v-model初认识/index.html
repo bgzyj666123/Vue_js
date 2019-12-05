@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+
+<div id="app">
+    <div>
+        <sapn> 1+1= {{ 1 + 1 }}</sapn>
+    </div>
+
+    <div>
+        <input type="text" v-model="name">  <!--v-model是双向绑定的、input的值和后面的data里面的值进行绑定-->
+        <span>你的名字是：{{ name }}</span>  <!--类似于django的模板渲染-->
+    </div>
+
+    <div>
+        <input type="text" v-model="age">
+        <span>你的年龄是：{{ age }}</span>
+    </div>
+
+    <div>
+        <input type="text" v-model="sex">
+        <span v-show="sex">你的性别是：{{ sex }}</span> <!--v-show 如果sex的值不为空则显示后面的文字和{{sex}}，-->
+                                                       <!--v-show 不管data中的值是否存在，元素都存在-->
+    </div>
+
+</div>
+<script src="../lib/main.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

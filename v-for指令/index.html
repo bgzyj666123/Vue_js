@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+
+<div id="app">
+    <ul >
+        <li v-for="food in foodlist"> 商品名： {{food.name}}  &nbsp; ￥{{food.price*food.discount}}</li>
+        <!--如果js中蒜不打折,即蒜中的discount变量不存在，则可以写成{{food.discount?food.price*food.discount:food.price}}-->
+        <!--可以在console控制台中利用app.foodlist.push({})进行数据的增加-->
+    </ul>
+
+</div>
+<script src="../lib/main.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

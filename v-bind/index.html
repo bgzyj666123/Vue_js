@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .active{
+            background: darkred;
+        }
+    </style>
+</head>
+<body>
+
+<div id="app">
+  <!--v-bind用来绑定数据和元素属性的-->
+    <!--还可以利用v-bind来进行类的绑定-->
+    <a v-bind:href="url" v-bind:class="{active:isactive}">点击</a> <!--现在地址栏中的地址是根据后面data中的地址动态改变的-->
+    <!--注意{{}}是传递变量的值，{}是传递对象，比如{active:active}前面的是类样式active,后面跟随的是js中传递的active值-->
+    <img v-bind:src="picture" alt="小图片">
+</div>
+<script src="../lib/main.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

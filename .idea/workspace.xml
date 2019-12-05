@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="decd5d65-f788-4b3b-bdac-4dbda330852b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/a.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +30,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1UNoR5JH00ppLd9zmkRfiR5LHca" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -77,7 +80,7 @@
       <workItem from="1575206407047" duration="635000" />
       <workItem from="1575250773780" duration="1446000" />
       <workItem from="1575338600709" duration="7306000" />
-      <workItem from="1575529729666" duration="6140000" />
+      <workItem from="1575529729666" duration="6953000" />
     </task>
     <task id="LOCAL-00001" summary="js">
       <created>1575534995219</created>
@@ -93,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575535433974</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="js">
+      <created>1575536046901</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1575536046901</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,10 +114,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="js" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="370" y="1" key="CommitChangelistDialog2" timestamp="1575535432676">
+    <state x="389" y="90" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1575536646877">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="370" y="1" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1575535432676" />
+    <state x="389" y="90" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.824@0.0.1536.824" timestamp="1575536646877" />
+    <state x="370" y="1" key="CommitChangelistDialog2" timestamp="1575536817706">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="370" y="1" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1575536817706" />
     <state x="-83" y="133" key="DiffContextDialog" timestamp="1575345744299">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -116,10 +130,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="279" y="113" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1575534919723" />
-    <state x="574" y="272" width="272" height="287" key="Github.ShareDialog" timestamp="1575535537449">
+    <state x="574" y="272" width="272" height="287" key="Github.ShareDialog" timestamp="1575536776147">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="272" width="272" height="287" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1575535537449" />
+    <state x="574" y="272" width="272" height="287" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1575536776147" />
     <state x="532" y="113" key="Github.UntrackedFilesDialog" timestamp="1575345865145">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -140,5 +154,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1575339807951" />
+    <state x="599" y="203" key="svn.repositoryBrowser" timestamp="1575536682161">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="599" y="203" key="svn.repositoryBrowser/0.0.1536.824@0.0.1536.824" timestamp="1575536682161" />
   </component>
 </project>

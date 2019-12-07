@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <template v-if="type==='name'">
+        <label >用户名:</label>
+        <input type="text" placeholder="输入用户名" key="key_username">
+    </template>
+    <template v-else>
+        <label >邮箱：</label>
+
+
+        
+        <input type="text" placeholder="输入邮箱" key="key_e-mail">
+    </template>
+    <button @click="handleToggle">切换输入类型</button>
+</div>
+<script src="../../lib/main.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

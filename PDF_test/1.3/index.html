@@ -12,7 +12,7 @@
     <p>输入的信息为{{message}}</p>
 </div>
 -->
-<div id="app">
+<!--<div id="app">
     <input type="radio" v-model="picked" value="html" id="html">
     <label for="html" >HTML</label>
     <br>
@@ -23,7 +23,29 @@
     <label for="css" >CSS</label>
     <br>
     <p>选择的项是{{picked}}</p>
+</div>-->
+<div id="app1">
+    <input type="checkbox" v-model="checked" value="html" id="html">
+    <label for="html">HTML</label>
+    <br>
+    <input type="checkbox" v-model="checked" value="js" id="js">
+    <label for="js">JS</label>
+    <br>
+    <input type="checkbox" v-model="checked" value="css" id="css">
+    <label for="css">CSS</label>
+    <br>
+    <p>选择的是{{checked}}</p>
 </div>
+<div id="app2">
+    <select v-model="selected">
+        <option v-for="option in options"
+                v-bind:value="option.value">{{option.text}}</option>
+
+    </select>
+    <p>选择的是{{ selected }}</p>
+</div>
+
+<!--输入框：type=text / 单选框 type=option / 复选框 type=check / type=selected 下拉框-->
 
 <script src="../../lib/main.js"></script>
 <script src="js/main.js"></script>

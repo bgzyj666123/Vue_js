@@ -26,6 +26,7 @@
         <input type="text" v-model="sex">
         <span v-show="sex">你的性别是：{{ sex }}</span> <!--v-show 如果sex的值不为空则显示后面的文字和{{sex}}，-->
                                                        <!--v-show 不管data中的值是否存在，元素都存在-->
+                                                        <!--v-model.lazy/number/trim 分别是惰性/转数字/去空格-->
     </div>
 
 </div>
